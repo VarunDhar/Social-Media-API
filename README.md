@@ -2,6 +2,13 @@
 Follow Microservices architecture.
 Tech-Stack - Node.js, Framework - Express, ORM - Mongoose, several NPM libraries (Bcrypt, Cloudinary, cookie-parser, jwt, axios)
 
+**How to Run**
+=> Connect MongoDB URL
+1. Run src/index.js (nodemon index.js) with PORT 4000
+2. Run src/user-service/index.js in another terminal (nodemon index.js) with PORT 5001
+3. Run src/comment-service/index.js in another terminal (nodemon index.js) with PORT 5003
+4. Run src/discussion-service/index.js in another terminal (nodemon index.js) with PORT 5002
+   
 ### Overview ###
 
 The API I have developed is to strengthen a comprehensive application designed to facilitate user interactions through discussions, comments, and notifications. It is built using a microservices architecture to ensure scalability, maintainability, and flexibility. Each microservice is responsible for a distinct aspect of the platform, including user management, discussions, comments, and notifications.
